@@ -52,7 +52,8 @@ header nav {
 }
 
 header .logo {
-  width: 165px;
+  width: 220px;
+  padding-bottom: 10px;
 }
 
 header .logo svg {
@@ -84,8 +85,8 @@ header .social-icon a {
 }
 
 header .social-icon a:hover {
-  border-color: #ff3251;
-  background-color: #ff3251;
+  border-color: #5D6EF2; /*#ff3251;*/
+  background-color:  #5D6EF2; /*#ff3251;*/
 }
 
 .has-line {
@@ -100,7 +101,7 @@ header .social-icon a:hover {
   left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #333333;
+  background-color: #FFF;
   width: 88px;
   height: 2px;
 }
@@ -127,9 +128,9 @@ header .social-icon a:hover {
 .form-group button {
   width: 175px;
   height: 70px;
-  border: 1px solid #FF3251;
+  border: 1px solid  #5D6EF2; /*#ff3251;*/;
   border-radius: 40px;
-  background-color: #FF3251;
+  background-color:  #5D6EF2; /*#ff3251;*/;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
@@ -140,7 +141,7 @@ header .social-icon a:hover {
 
 @media (max-width: 420px) {
   .main {
-    background-image: none !important;
+    /* background-image: none !important; */
     display: block !important;
   }
   header {
@@ -154,6 +155,7 @@ header .social-icon a:hover {
     height: 50px;
     width: 130px;
     right: 0;
+    font-size: 16px;
   }
   .has-line {
     text-align: center;
@@ -161,9 +163,6 @@ header .social-icon a:hover {
   }
   .has-line::before {
     display: none;
-  }
-  h1 {
-    text-align: center;
   }
   .social-icon a {
     height: 35px !important;
@@ -175,7 +174,7 @@ header .social-icon a:hover {
     width: 140px;
   }
   .newsletter-area {
-    padding-top: 150px;
+    padding-top: 30vh;
     margin-bottom: 50px;
   }
 }
@@ -196,6 +195,7 @@ header .social-icon a:hover {
     height: 50px;
     width: 130px;
     right: 0;
+    font-size: 16px;
   }
   .has-line {
     text-align: center;
@@ -204,9 +204,6 @@ header .social-icon a:hover {
   .has-line::before {
     display: none;
   }
-  h1 {
-    text-align: center;
-  }
   .social-icon a {
     height: 35px !important;
     width: 35px !important;
@@ -214,17 +211,17 @@ header .social-icon a:hover {
     border-color: #001141 !important;
   }
   header .logo {
-    width: 150px;
+    width: 200px;
   }
   .newsletter-area {
-    padding-top: 150px;
+    padding-top: 30vh;
     margin-bottom: 50px;
   }
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .main {
-    background-image: none !important;
+    /* background-image: none !important; */
     display: block !important;
   }
   header {
@@ -246,9 +243,6 @@ header .social-icon a:hover {
   .has-line::before {
     display: none;
   }
-  h1 {
-    text-align: center;
-  }
   .social-icon a {
     height: 35px !important;
     width: 35px !important;
@@ -256,7 +250,7 @@ header .social-icon a:hover {
     border-color: #001141 !important;
   }
   header .logo {
-    width: 160px;
+    width: 220px;
   }
   .newsletter-area {
     padding-top: 150px;
@@ -266,7 +260,7 @@ header .social-icon a:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .main {
-    background-image: none !important;
+    /* background-image: none !important; */
   }
   .social-icon a {
     color: #001141 !important;
@@ -282,18 +276,13 @@ header .social-icon a:hover {
   }
   .has-line {
     text-align: center;
-    padding: 0;
-  }
-  .has-line::before {
-    display: none;
+    /* padding: 0;*/
   }
   h5 {
     font-size: 18px !important;
   }
   h1 {
     margin: 0 auto;
-    max-width: 540px !important;
-    text-align: center;
     font-size: 60px !important;
     line-height: 68px !important;
   }
@@ -325,7 +314,7 @@ body {
 
 h1,
 h5 {
-  color: #001141;
+  color: #FFFFFF;
 }
 
 h1 {
@@ -336,7 +325,7 @@ h1 {
 }
 
 h5 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -356,7 +345,7 @@ h5 {
     line-height: 44px;
   }
   h5 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
